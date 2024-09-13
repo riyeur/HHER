@@ -1,0 +1,1463 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff9fb;
+    min-height: 10vh;
+}
+
+.nav-bar-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar-left {
+    margin-left: 1.7vw;
+}
+
+.logo {
+    user-select: none;
+    pointer-events: none;
+    margin-top: -3.5px;
+    height: 11.4vh;
+    width: auto;
+}
+
+.nav-bar-right {
+    display: flex;
+    align-items: center;
+    margin-top: -4px;
+    margin-left: auto;
+    padding: 0px 1.7vw;
+}
+
+.nav-bar-right div {
+    margin-left: 1.3vw;
+}
+
+.nav-bar-right a {
+    display: inline-block;
+    color: #f44796;
+    padding: 1.3vh 1vw;
+    line-height: 1;
+    font-size: 1.1vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    border: 0.15vw solid #f44796;
+    background-color: #fde9f0;
+    border-radius: 1vh;
+}
+
+.nav-bar-right a:hover {
+    background-color: #fbeff3;
+    color: #f56a9b;
+}
+
+.home {
+    background: radial-gradient(circle, #febad3 30%, #fde9f0 70%);
+    text-align: center;
+    border-bottom: 0.15vw solid #cb2772;
+    min-height: 89vh;
+    position: relative;
+}
+
+header {
+    border-bottom: 0.15vw solid #cb2772;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.her-health {
+    user-select: none;
+    pointer-events: none;
+    animation: fadeIn 1.5s;
+    margin-top: 12.7vh;
+    padding: 0;
+    width: auto;
+    height: 60vh;
+}
+
+.her-health-phone {
+    display: none;
+}
+
+.main-text-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center elements horizontally */
+    justify-content: center; /* Center elements vertically */
+}
+
+.main-line-phone {
+    display: none;
+}
+
+.main-line-sparkle {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin-top: -16vh;
+}
+
+.main-line {
+    font-size: 2.4vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #de2b7e;
+    line-height: 1;
+    border: 0.15vw solid #de2b7e;
+    background-color: #fde9f0;
+    font-weight: 500;
+    border-radius: 20vh;
+    padding: 0px 1.5vw;
+    display: inline-block;
+    animation: fadeIn 1.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+    z-index: 1;
+}
+
+.sparkle-one {
+    animation: fadeIn 1.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+    user-select: none;
+    pointer-events: none;
+    z-index: 1;
+    margin-top: 1.5vh;
+    height: 4.5vh;
+    width: auto;
+}
+
+.sparkle-two {
+    animation: fadeIn 1.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+    user-select: none;
+    pointer-events: none;
+    z-index: 1;
+    margin-top: 1.5vh;
+    height: 4vh;
+    width: auto;
+}
+
+.who-we-are {
+    background: radial-gradient(circle, 
+                #ffaac9 0%,
+                #fde9f0 60%,
+                #fde9f0 100%); 
+    z-index: 3;
+    height: 94vh;
+    margin-top: -3vh;
+    width: auto;
+}
+
+.who-title {
+    font-size: 10.5vh;
+    color: #de2b7e;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    user-select: none;
+    pointer-events: none;
+    margin-top: -3.8vh;
+}
+
+.who-we-are-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 4vw;
+    background-color: #fef6f9;
+    padding: 3vh 2vh 1vh 2vh;
+    border-radius: 2vh;
+    border: 0.15vw solid #de2b7e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #7d0055;
+    font-size: 2.3vh;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 14px; 
+    max-width: 17vw; 
+    word-wrap: break-word;
+}
+
+.icon {
+    height: 16vh;
+    width: auto;
+}
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #de2b7e;
+    font-size: 2.7vh;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.line-one {
+    position: absolute;
+    top: -11vh;
+    right: 0px;
+    z-index: 1;
+    user-select: none;
+    pointer-events: none;
+    opacity: 0.8;
+    height: 63vh;
+    width: auto;
+}
+
+.line-two {
+    position: absolute;
+    bottom: -15.5vh;
+    left: 0px;
+    z-index: 1;
+    user-select: none;
+    pointer-events: none;
+    opacity: 0.8;
+    height: 63vh;
+    width: auto;
+}
+
+.private {
+    position: absolute;
+    top: -5px;
+    right: 8vw;
+    z-index: 2;
+    user-select: none;
+    pointer-events: none;
+    height: 23vh;
+    width: auto;
+}
+
+.paint {
+    position: absolute;
+    top: 18vh;
+    right: 0.7vw;
+    z-index: 2;
+    user-select: none;
+    pointer-events: none;
+    height: 18vh;
+    width: auto;
+}
+
+.microscope {
+    position: absolute;
+    bottom: -0.55%;
+    left: 10vw;
+    z-index: 5;
+    user-select: none;
+    pointer-events: none;
+    height: 23vh;
+    width: auto;
+}
+
+.heart {
+    position: absolute;
+    bottom: 4vh;
+    left: 0.4vw;
+    z-index: 2;
+    user-select: none;
+    pointer-events: none;
+    height: 21.5vh;
+    width: auto;
+}
+
+.sparkles-container {
+    position: relative;
+    margin-top: -10px;
+}
+
+.who-sparkle-one {
+    position: absolute;
+    top: -67vh;
+    left: 3vw;
+    z-index: 2;
+    height: 9vh;
+    width: auto;
+    user-select: none;
+    pointer-events: none;
+}
+
+.who-sparkle-two {
+    position: absolute;
+    top: -58vh;
+    left: 7vw;
+    z-index: 2;
+    height: 4vh;
+    width: auto;
+    user-select: none;
+    pointer-events: none;
+}
+
+.who-sparkle-three {
+    position: absolute;
+    top: -67vh;
+    right: 3vw;
+    z-index: 2;
+    height: 9vh;
+    width: auto;
+    user-select: none;
+    pointer-events: none;
+}
+
+.who-sparkle-four {
+    position: absolute;
+    top: -58vh;
+    right: 7vw;
+    z-index: 2;
+    height: 4vh;
+    width: auto;
+    user-select: none;
+    pointer-events: none;
+}
+
+.footer {
+    background-color: #a41e5b;
+    border-top: 0.15vw solid #8d184d;
+    padding-top: 1.9vh;
+    padding-bottom: 3.4vh;
+}
+
+.all-information {
+    display: flex;
+    align-items: flex-start; 
+    text-align: center;
+}
+
+.all-information > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #fde9f0;
+    font-size: 0.95vw;
+    padding-top: 1vh;
+}
+
+.information, .information-two, .information-three {
+    display: flex;
+    flex-direction: column;
+    color: #fde9f0;
+}
+
+.full-address {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.all-links {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.linktree, .join-us, .infographics, .instagram {
+    font-size: 1.05vw;
+    color: #fde9f0;
+    text-decoration: none;
+    padding-bottom: 0.65vh;
+
+}
+
+.footer-name, .links, .contact-us {
+    font-size: 1.45vw;
+    font-weight: 600;
+}
+
+.footer-name {
+    font-weight: 600;
+    margin-bottom: 0.1vh;
+}
+
+.university .address .city {
+    font-weight: 300;
+    margin: 0;
+}
+
+.university {
+    font-size: 1.05vw;
+}
+
+.address, .city {
+    font-size: 1.05vw;
+    margin-top: -1.25vh;
+}
+
+.information, .information-two, .information-three {
+    flex: 1;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #feeff4 25%, #ffdde9 55%);
+    min-height: 89vh;
+    border-bottom: 0.15vw solid #cb2772;
+    gap: 10px;
+}
+
+.text-container {
+    margin-top: -18vh;
+}
+
+.our-team-main {
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(circle, #feeff4 25%, #ffdde9 55%);
+    min-height: 89vh;
+    border-bottom: 0.15vw solid #cb2772;
+}
+
+.main-column-our-team {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-our-team-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 89vh;
+}
+
+.hher-girl {
+    padding-left: 70px;
+    width: 21.2vw;
+    height: auto;
+}
+
+.our-team-text {
+    margin-bottom: 4.5%; /* Remove bottom margin */
+}
+
+.our-team-text {
+    font-size: 10vh;
+    color: #de2b7e;
+    animation: fadeIn 1.5s;
+}
+
+.flowers-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.small-flower-one, .small-flower-two, .small-flower-three {
+    width: 13.9vw;
+    height: auto;
+    transform: translate(0, 0); /* Initial position */
+    transition: transform 0.5s ease;
+}
+
+.flowers-container {
+    position: relative;
+    width: 100%;
+    height: 0; /* Set to 0 to remove space */
+}
+
+.flower-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Adjust individual flower positions */
+.small-flower-one {
+    transform: translate(21vw, -79vh); /* Move left by 10% of viewport width and up by 5% of viewport height */
+}
+
+.small-flower-two {
+    transform: translate(9vw, -37vh); /* Move right by 5% of viewport width and down by 10% of viewport height */
+}
+
+.small-flower-three {
+    transform: translate(73vw, -63vh); /* Move left by 5% of viewport width and down by 15% of viewport height */
+}
+
+
+.flower-right {
+    z-index: 2;
+    user-select: none;
+    pointer-events: none;
+    position: relative; /* Use relative positioning */
+    top: -1vh; /* Adjust this value to move the flower down */
+    height: 21vh;
+    width: auto;
+}
+
+.flower-left {
+    z-index: 2;
+    user-select: none;
+    pointer-events: none;
+    position: relative; /* Use relative positioning */
+    top: -1vh; /* Adjust this value to move the flower down */
+    height: 21vh;
+    width: auto;
+}
+
+.about-us-text {
+    font-size: 9vh;
+    color: #de2b7e;
+    animation: fadeIn 1.5s;
+}
+
+.about-us-tagline {
+    font-size: 2.5vh;
+    max-width: 60vw; 
+    word-wrap: break-word;
+    margin-top: -14vh;
+    color: #7d0055;
+    animation: fadeIn 1.5s;
+}
+
+.what-we-do {
+    font-size: 6vh;
+    color: #de2b7e;
+}
+
+.journal-entries {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #feeaf1 30%, #fff1f6 55%);
+    min-height: 83vh;
+    padding-bottom: 6vh;
+}
+
+.coming-soon {
+    font-size: 8.8vh;
+    color: #de2b7e;
+    animation: fadeIn 1.5s;
+}
+
+.about-us-picture-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffbfd;
+    min-height: 89vh;
+    border-bottom: 0.15vw solid #cb2772;
+    z-index: 3;
+}
+
+.title-and-description {
+    display: flex;
+    flex-direction: column;
+    margin-top: -26px;
+}
+
+.about-us-description {
+    font-size: 2.3vh;
+    line-height: 1.6;
+    max-width: 45vw; 
+    word-wrap: break-word;
+    color: #7d0055;
+}
+
+.womens-health {
+    height: 45vh;
+    margin-right: 70px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    user-select: none;
+    pointer-events: none;
+}
+
+.what-we-do {
+    margin-bottom: 0px;
+}
+
+.about-us-join-us {
+    background-color: #ffdce8;
+    min-height: 90%;
+    padding-bottom: 7.5vh;
+}
+
+.join-us-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-us-title {
+    font-size: 6vh;
+    color: #de2b7e;
+    margin-bottom: 8px;
+    padding-top: 2vh;
+}
+
+.join-us-description {
+    font-size: 2.6vh;
+    color: #7d0055;
+    text-align: center;
+}
+
+.button {
+    padding-top: 55px;
+}
+
+.form-button {
+    outline: none;
+    border: 0.15vw solid #de2b7e;
+    padding: 1.57vh 2.2vw;
+    font-size: 2.5vh;
+    border-radius: 10vh;
+    color: #de2b7e;
+    background-color: #fef4f7;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    color: #ed4b97;
+    background-color: #fdf7f9;
+}
+
+.potted-flower {
+    height: 41vh;
+    margin-top: 20px;
+}
+
+.infographics-main {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background: radial-gradient(circle, #feeff4 25%, #ffdde9 55%);
+    min-height: 89vh;
+    align-items: center;
+    border-bottom: 0.15vw solid #cb2772;
+}
+
+.infographics-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    margin-top: -15.5vh;
+    color: #de2b7e;
+}
+
+.infographics-tagline {
+    font-size: 2.5vh;
+    margin-top: -11.6vh;
+    color: #7d0055;
+    animation: fadeIn 1.5s;
+}
+
+.infographics-text {
+    font-size: 8.35vh;
+    animation: fadeIn 1.5s;
+}
+
+.heart-left {
+    z-index: 2;
+    user-select: none;
+    pointer-events: none;
+    position: relative; /* Use relative positioning */
+    top: -4vh; /* Adjust this value to move the flower down */
+    height: 11.5vh;
+    width: auto;
+}
+
+.heart-right {
+    z-index: 2;
+    user-select: none;
+    pointer-events: none;
+    position: relative; /* Use relative positioning */
+    top: -4vh; /* Adjust this value to move the flower down */
+    height: 11.5vh;
+    width: auto;
+}
+
+.infographics-middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 2.5vh;
+    padding: 2.5vh;
+}
+
+.image-button {
+    outline: none;
+    border: 0.15vw solid #de2b7e;
+    color: #de2b7e;
+    background-color: #fef4f7;
+    cursor: pointer;
+    margin-right: 1vw;
+    padding: 2.5vh 1vw;
+    font-size: 2.35vh;
+    cursor: pointer;
+}
+
+.image-button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    padding-top: 2vh;
+    padding-bottom: 4.1vh;
+    gap: 3vw; /* Space between buttons */
+    row-gap: 6vh;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 1.4vh 0.8vw 1vh 0.7vw;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    border: 0.15vw solid #7d0055;
+}
+
+.infographics-image {
+    width: 90vw;
+    height: auto;
+}
+
+.close-button-two {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background-color: #f9f2f5;
+    border: 2px solid #7d0055;
+    color: #7d0055;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.our-team-president {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 12vh;
+}
+
+.person-name {
+    font-size: 2.55vh;
+    margin-top: -0.2vh;
+    margin-bottom: -1.1vh;
+}
+
+.our-team-second-row, .our-team-third-row, .our-team-fourth-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 7.5vh;
+    gap: 17.5vw;
+}
+
+.our-team-fourth-row {
+    padding-bottom: 12.5vh;
+}
+
+.our-team-middle {
+    background-color: #fffbfd;
+}
+
+.person-picture {
+    user-select: none;
+    pointer-events: none;
+    height: 22.5vh;
+    width: auto;
+}
+
+.person-name {
+    color: #de2b7e;
+}
+
+.person-role {
+    font-size: 2.05vh;
+    color: #7d0055;
+}
+
+.about-button {
+    outline: none;
+    border: 0.15vw solid #de2b7e;
+    font-size: 1.9vh;
+    font-weight: 600;
+    padding: 1.25vh 1.3vw;
+    border-radius: 3vh;
+    color: #de2b7e;
+    background-color: #fef4f7;
+    cursor: pointer;
+}
+
+.about-button:hover {
+    color: #ed4b97;
+    background-color: #fdf7f9;
+}
+
+.our-team-middle {
+    position: relative; /* Ensure that the modal is positioned relative to this container */
+}
+
+.about-card-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.about-card-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-card {
+    position: relative;
+    background-color: #fffbfc;
+    border-radius: 1vh;
+    border: 0.35vh solid #a61b5c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1001; /* Ensure it appears above the backdrop */
+    width: 39vw; /* Set a fixed width */
+    height: 66vh; /* Set a fixed height */
+    overflow: auto; /* Allow scrolling if content overflows */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+.person-name-card {
+    font-size: 3.05vh;
+}
+
+.person-description-card {
+    font-size: 2vh;
+}
+
+.about-card-content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text inside the card */
+}
+
+.about-card-picture {
+    display: flex;
+    height: 22.5vh;
+    width: auto;
+}
+
+.about-card-description {
+    max-width: 80%; /* Limit the width of the description */
+    word-wrap: break-word; /* Break long words to fit within the container */
+    overflow-wrap: break-word; /* Same as word-wrap, for better compatibility */
+    line-height: 1.5; /* Adjust line height for better readability */
+}
+
+.close-button {
+    margin-top: 10px;
+}
+
+.close-icon {
+    position: absolute;
+    top: 0.5vh; /* Adjust as needed */
+    right: 1vw; /* Adjust as needed */
+    font-size: 4vh; /* Size of the 'X' */
+    cursor: pointer; /* Change cursor to pointer */
+    color: #460130; /* Color of the 'X' */
+    z-index: 1002; /* Ensure it appears above other content */
+}
+
+.about-card-content h2 {
+    color: #de2b7e; /* Set the color of the name */
+}
+
+.about-card-description p {
+    color: #460130; /* Set the color of the description */
+}
+
+.mobile-message {
+    display: none;
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    height: 1px;
+    width: 25px;
+    background-color: #f44796;
+    margin: 4px 0;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+/* Phones (up to 600px) */
+@media only screen and (max-width: 1024px) {
+    
+    .home {
+        background: radial-gradient(circle, #ffd3e3 30%, #ffd3e3 70%);
+        padding-top: 14vh;
+        min-height: 20%;
+        padding-bottom: 5vh;
+    }
+
+    .main-text-home {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5vh;
+    }
+
+    .main-line-phone {
+        display: block;
+        font-size: 2.2vh;
+        color: #de2b7e;
+        border: 0.2vh solid #de2b7e;
+        border-radius: 0.5vh;
+        background-color: #fbf1f4;
+        font-weight: 500;
+        padding: 0px 2vw;
+        animation: fadeIn 1.5s;
+        animation-delay: 0.5s;
+        animation-fill-mode: both;
+        z-index: 1;
+        width: fit-content;
+        max-width: 80%; 
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .her-health-phone-styling {
+        display: flex;
+        justify-content: center;
+    }
+
+    .her-health-phone {
+        user-select: none;
+        pointer-events: none;
+        animation: fadeIn 1.5s;
+        animation-delay: 0.5s;
+        height: 18vh;
+        width: auto;
+    }
+
+    .her-health {
+        display: none;
+    }
+
+    .who-we-are {
+        min-height: 100vh;
+        padding-bottom: 58.5vh;
+    }
+
+    .who-title {
+        font-size: 7vh;
+        color: #de2b7e;
+    }
+
+    .who-we-are-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 11vw;
+        background-color: #ffffff;
+        border-radius: 1.5vh;
+        border: 0.2vh solid #de2b7e;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .who-sparkle-one, .who-sparkle-two, .who-sparkle-three, .who-sparkle-four {
+        display: none;
+    }
+
+    .title {
+        font-size: 2.5vh;
+    }
+
+    .description {
+        font-size: 2.2vh;
+        max-width: 35vh; 
+        word-wrap: break-word;
+    }
+
+    .icons-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        user-select: none;
+        pointer-events: none;
+        gap: 6vh;
+    }
+
+    .her-health-phone {
+        display: block;
+        margin-top: -10vh;
+    }
+
+    .logo {
+        max-height: 8vh;
+        left: 5%;
+        margin-top: 2px;
+    }
+
+    .private, .heart, .paint, .microscope, .line-one, .line-two, .main-line-sparkle {
+        display: none;
+    }
+
+    .nav-bar {
+        padding: 0 2vw; /* Reduce padding to avoid overflow */
+    }
+
+    .nav-bar-right {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff9fb;
+        padding: 10px 0; /* Add padding for spacing */
+    }
+
+    .nav-bar-right.open {
+        display: flex;
+    }
+
+    .nav-bar-right div {
+        margin: 1.4vh 0;
+        text-align: center; /* Center the links */
+        width: 100%;
+    }
+
+    .nav-bar-right a {
+        display: inline-block;
+        color: #f44796;
+        padding: 1.2vh 3.5vw;
+        line-height: 1;
+        font-size: 2.2vh;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        border: 0.2vh solid #f44796;
+        background-color: #fde9f0;
+        border-radius: 1vh;
+    }
+
+    .hamburger {
+        display: flex;
+        padding: 10px 0; /* Add padding for easier clicking */
+        padding-left: 2vh;
+        padding-right: 2vh;
+        cursor: pointer;
+    }
+
+    .hamburger span {
+        width: 3.3vh;
+        height: 1vh;
+        margin: 0.5vh 0;
+    }
+
+    .hamburger span:nth-child(1) {
+        height: 0.2vh;
+    }
+
+    .hamburger span:nth-child(2) {
+        height: 0.2vh; /* Standard line */
+    }
+
+    .hamburger span:nth-child(3) {
+        height: 0.2vh; /* Thicker line */
+    }
+
+    .all-information {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;
+    }
+
+    .information {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;
+    }
+
+    .footer-name, .links, .contact-us {
+        font-size: 3vh;
+    }
+
+    .linktree, .join-us, .infographics, .instagram {
+        font-size: 1.8vh;
+    }
+
+    .infographics {
+        margin-bottom: 0.2vh;
+    }
+
+    .contact-us {
+        padding-top: 0.7vh;
+    }
+
+    .linktree {
+        margin-top: -1vh;
+    }
+
+    .instagram {
+        margin-top: -1.2vh;
+    }
+
+    .copyright {
+        padding-top: 2vh;
+        padding-bottom: 1vh;
+        font-size: 1.3vh;
+    }
+
+    .her-health {
+        width: 95vw;
+        height: auto;
+    }
+
+    .full-address, .all-links, .social-media {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .university {
+        font-size: 1.8vh;
+    }
+    
+    .address, .city {
+        font-size: 1.8vh;
+        margin-top: -0.7vh;
+    }
+
+    .about-us {
+        min-height: 30.5vh;
+        padding-top: 7.5vh;
+    }
+
+    .womens-health {
+        height: 37vh;
+        width: auto;
+        margin-right: 0px;
+    }
+
+    .about-us-text {
+        font-size: 7vh;
+    }
+
+    .about-us-tagline {
+        font-size: 2.3vh;
+        max-width: 70vw; 
+        word-wrap: break-word;
+        margin-top: -11vh;
+        color: #7d0055;
+        animation: fadeIn 1.5s;
+    }
+
+    /* THIS IS WHERE I LEFT OFF */
+
+    .about-us-description {
+        font-size: 2.2vh;
+        line-height: 1.6;
+        max-width: 80vw; 
+        word-wrap: break-word;
+        color: #7d0055;
+    }
+
+    .title-and-description {
+        margin-top: -2vh;
+    }
+
+    .flower-right, .flower-left {
+        display: none;
+    }
+
+    .heart-left, .heart-right {
+        display: none;
+    }
+
+    .about-us-picture-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-top: 2vh;
+        border-bottom: 0.2vw solid #cb2772;
+    }
+
+    .what-we-do {
+        font-size: 5.5vh;
+        color: #de2b7e;
+    }
+
+    .about-us-join-us {
+        background-color: #ffdce8;
+        padding-bottom: 7.5vh;
+    }
+
+    .join-us-description {
+        font-size: 2.3vh;
+        line-height: 1.4;
+        max-width: 80vw; 
+        color: #7d0055;
+        text-align: center;
+    }
+
+    .potted-flower {
+        padding-bottom: 2.2vh;
+    }
+
+    .form-button {
+        outline: none;
+        border: 0.2vh solid #de2b7e;
+        padding: 1.6vh 7vw;
+        font-size: 2.5vh;
+        border-radius: 10vh;
+        color: #de2b7e;
+        background-color: #fef4f7;
+        cursor: pointer;
+    }
+
+    .who-we-are {
+        background: radial-gradient(circle, 
+                    #fff5f8 0%,
+                    #fff5f8 60%,
+                    #fff5f8 100%); 
+    }
+
+    .infographics-text {
+        font-size: 6.5vh;
+    }
+
+    .infographics-tagline {
+        font-size: 2.3vh;
+        max-width: 70vw; 
+        word-wrap: break-word;
+        color: #7d0055;
+        animation: fadeIn 1.5s;
+    }
+
+    .infographics-main {
+        min-height: 33vh;
+        padding-top: 6vh;
+        border-bottom: 0.15vw solid #cb2772;
+    }
+
+    .infographics-page {
+        gap: 2vh;
+    }
+
+    .journal-entries {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: radial-gradient(circle, #feeaf1 30%, #fff1f6 55%);
+        min-height: 84vh;
+        padding-bottom: 6vh;
+    }
+
+    .image-button-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* 4 columns */
+        padding-top: 15px;
+        padding-bottom: 30px;
+        gap: 30px; /* Space between buttons */
+        row-gap: 50px;
+    }
+
+    .image-button-grid {
+        display: none;
+    }
+
+    .mobile-message {
+        display: block;
+        font-size: 21px;
+        color: #7d0055;
+        text-align: center;
+    }
+
+    .mobile-message a {
+        color: #de2b7e; /* Change this to your desired link color */
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .infographics-middle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 0.5vh;
+        padding: 3.3vh;
+    }
+
+    .flowers-container {
+        display: none;
+    }
+
+    .our-team-main {
+        min-height: 50vh;
+    }
+
+    .main-our-team-section {
+        height: 50vh;
+    }
+
+    .our-team-second-row, .our-team-third-row, .our-team-fourth-row {
+        display: flex;
+        flex-direction: column;
+        gap: 7.5vh;
+    }
+    
+    .about-card {
+        position: relative;
+        background-color: #fffbfc;
+        border-radius: 1vh;
+        border: 0.25vh solid #a61b5c;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 1001; /* Ensure it appears above the backdrop */
+        width: 80vw; /* Set a fixed width */
+        height: 70vh;
+        overflow: auto; /* Allow scrolling if content overflows */
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        justify-content: center; /* Center items vertically */
+    }
+
+    .about-card-picture {
+        display: flex;
+        height: 18vh;
+        width: auto;
+    }
+
+    .person-name-card {
+        font-size: 2vh;
+    }
+    
+    .person-description-card {
+        font-size: 1.7vh;
+    }
+
+    .hher-girl {
+        height: 25vh;
+        width: auto;
+        padding-left: 5.5vh;
+    }
+
+    .close-icon {
+        position: absolute;
+        top: 0vh; /* Adjust as needed */
+        right: 3vw; /* Adjust as needed */
+        font-size: 4vh; /* Size of the 'X' */
+        cursor: pointer; /* Change cursor to pointer */
+        color: #460130; /* Color of the 'X' */
+        z-index: 1002; /* Ensure it appears above other content */
+    }
+
+    .our-team-text {
+        font-size: 8vh;
+        margin-bottom: 3vh; /* Remove bottom margin */
+        padding-bottom: 0; /* Remove bottom padding */
+    }
+
+    .our-team-president {
+        padding-top: 7.7vh;
+    }
+
+    .our-team-fourth-row {
+        padding-bottom: 7.7vh;
+    }
+
+    .about-button {
+        outline: none;
+        border: 0.2vh solid #de2b7e;
+        font-size: 2vh;
+        font-weight: 600;
+        padding: 1.35vh 3.5vw;
+        border-radius: 3vh;
+        color: #de2b7e;
+        background-color: #fef4f7;
+        cursor: pointer;
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
