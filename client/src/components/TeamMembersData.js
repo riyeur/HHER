@@ -53,7 +53,14 @@ const teamMembers = [
         iconAlt: "ria-sharma",
         personName: "Ria Sharma",
         role: "VP Marketing",
-        description: "Hi! My name is Ria and I am a third year neuroscience student at the University of Calgary. I am excited to join HHER as one of the VPs of Marketing. I am passionate about feminism, raising awareness about women’s health, and creating a space for women to support one another. In my free time, I like to crochet, read, and watch anime! I am thrilled to be a part of HHER and contribute to fostering a sense of belonging and wellbeing in our community."
+        description: "Hi! My name is Ria and I am a third year neuroscience student at the University of Calgary. I am excited to join HHER as one of the VPs of Marketing. I am passionate about feminism, raising awareness about women's health, and creating a space for women to support one another. In my free time, I like to crochet, read, and watch anime! I am thrilled to be a part of HHER and contribute to fostering a sense of belonging and wellbeing in our community."
+    },
+    {
+        iconSrc: "../images/basema.png",
+        iconAlt: "basema",
+        personName: "Basema Khan",
+        role: "IT Commissioner",
+        description: "Hi! My name is Basema and I'm a second year software engineering student. I'm involved in HHER as an IT Commissioner, working alongside the team to create and deploy the club's website. My passion for feminism encouraged me to get involved in HHER specifically, where I'm able to combine the technical knowledge taught in my classes with real-word action helping women. Outside of school I'm interested in reading, going on walks and writing articles for the Gauntlet, the university newspaper."
     }
 ];
 
