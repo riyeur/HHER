@@ -86,8 +86,8 @@ header {
 .main-text-home {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center elements horizontally */
-    justify-content: center; /* Center elements vertically */
+    align-items: center;
+    justify-content: center;
 }
 
 .main-line-phone {
@@ -464,7 +464,7 @@ header {
 }
 
 .our-team-text {
-    margin-bottom: 4.5%; /* Remove bottom margin */
+    margin-bottom: 4.5%;
 }
 
 .our-team-text {
@@ -483,14 +483,14 @@ header {
 .small-flower-one, .small-flower-two, .small-flower-three {
     width: 13.9vw;
     height: auto;
-    transform: translate(0, 0); /* Initial position */
+    transform: translate(0, 0);
     transition: transform 0.5s ease;
 }
 
 .flowers-container {
     position: relative;
     width: 100%;
-    height: 0; /* Set to 0 to remove space */
+    height: 0;
 }
 
 .flower-wrapper {
@@ -499,17 +499,16 @@ header {
     left: 0;
 }
 
-/* Adjust individual flower positions */
 .small-flower-one {
-    transform: translate(21vw, -79vh); /* Move left by 10% of viewport width and up by 5% of viewport height */
+    transform: translate(21vw, -79vh); 
 }
 
 .small-flower-two {
-    transform: translate(9vw, -37vh); /* Move right by 5% of viewport width and down by 10% of viewport height */
+    transform: translate(9vw, -37vh);
 }
 
 .small-flower-three {
-    transform: translate(73vw, -63vh); /* Move left by 5% of viewport width and down by 15% of viewport height */
+    transform: translate(73vw, -63vh);
 }
 
 
@@ -695,8 +694,8 @@ header {
     z-index: 2;
     user-select: none;
     pointer-events: none;
-    position: relative; /* Use relative positioning */
-    top: -4vh; /* Adjust this value to move the flower down */
+    position: relative;
+    top: -4vh;
     height: 11.5vh;
     width: auto;
 }
@@ -705,8 +704,8 @@ header {
     z-index: 2;
     user-select: none;
     pointer-events: none;
-    position: relative; /* Use relative positioning */
-    top: -4vh; /* Adjust this value to move the flower down */
+    position: relative;
+    top: -4vh;
     height: 11.5vh;
     width: auto;
 }
@@ -735,10 +734,10 @@ header {
 
 .image-button-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-columns: repeat(4, 1fr);
     padding-top: 2vh;
     padding-bottom: 4.1vh;
-    gap: 3vw; /* Space between buttons */
+    gap: 3vw;
     row-gap: 6vh;
 }
 
@@ -849,7 +848,7 @@ header {
 }
 
 .our-team-middle {
-    position: relative; /* Ensure that the modal is positioned relative to this container */
+    position: relative;
 }
 
 .about-card-container {
@@ -861,7 +860,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1000; /* Ensure it appears above other content */
+    z-index: 1000;
 }
 
 .about-card-backdrop {
@@ -879,14 +878,14 @@ header {
     border-radius: 1vh;
     border: 0.35vh solid #a61b5c;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1001; /* Ensure it appears above the backdrop */
-    width: 39vw; /* Set a fixed width */
-    height: 66vh; /* Set a fixed height */
-    overflow: auto; /* Allow scrolling if content overflows */
+    z-index: 1001;
+    width: 39vw;
+    height: 66vh;
+    overflow: auto;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .person-name-card {
@@ -899,10 +898,10 @@ header {
 
 .about-card-content {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    text-align: center; /* Center text inside the card */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .about-card-picture {
@@ -912,10 +911,10 @@ header {
 }
 
 .about-card-description {
-    max-width: 80%; /* Limit the width of the description */
-    word-wrap: break-word; /* Break long words to fit within the container */
-    overflow-wrap: break-word; /* Same as word-wrap, for better compatibility */
-    line-height: 1.5; /* Adjust line height for better readability */
+    max-width: 80%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
 }
 
 .close-button {
@@ -924,27 +923,26 @@ header {
 
 .close-icon {
     position: absolute;
-    top: 0.5vh; /* Adjust as needed */
-    right: 1vw; /* Adjust as needed */
-    font-size: 4vh; /* Size of the 'X' */
-    cursor: pointer; /* Change cursor to pointer */
-    color: #460130; /* Color of the 'X' */
-    z-index: 1002; /* Ensure it appears above other content */
+    top: 0.5vh;
+    right: 1vw;
+    font-size: 4vh;
+    cursor: pointer;
+    color: #460130;
+    z-index: 1002;
 }
 
 .about-card-content h2 {
-    color: #de2b7e; /* Set the color of the name */
+    color: #de2b7e;
 }
 
 .about-card-description p {
-    color: #460130; /* Set the color of the description */
+    color: #460130;
 }
 
 .mobile-message {
     display: none;
 }
 
-/* Hamburger Menu Styles */
 .hamburger {
     display: none;
     flex-direction: column;
@@ -960,7 +958,6 @@ header {
     border-radius: 2px;
 }
 
-/* Phones (up to 600px) */
 @media only screen and (max-width: 1024px) {
     
     .home {
@@ -1074,7 +1071,7 @@ header {
     }
 
     .nav-bar {
-        padding: 0 2vw; /* Reduce padding to avoid overflow */
+        padding: 0 2vw;
     }
 
     .nav-bar-right {
@@ -1085,7 +1082,7 @@ header {
         top: 100%;
         left: 0;
         background-color: #fff9fb;
-        padding: 10px 0; /* Add padding for spacing */
+        padding: 10px 0;
     }
 
     .nav-bar-right.open {
@@ -1094,7 +1091,7 @@ header {
 
     .nav-bar-right div {
         margin: 1.4vh 0;
-        text-align: center; /* Center the links */
+        text-align: center;
         width: 100%;
     }
 
@@ -1114,7 +1111,7 @@ header {
 
     .hamburger {
         display: flex;
-        padding: 10px 0; /* Add padding for easier clicking */
+        padding: 10px 0;
         padding-left: 2vh;
         padding-right: 2vh;
         cursor: pointer;
@@ -1131,11 +1128,11 @@ header {
     }
 
     .hamburger span:nth-child(2) {
-        height: 0.2vh; /* Standard line */
+        height: 0.2vh;
     }
 
     .hamburger span:nth-child(3) {
-        height: 0.2vh; /* Thicker line */
+        height: 0.2vh;
     }
 
     .all-information {
@@ -1225,8 +1222,6 @@ header {
         color: #7d0055;
         animation: fadeIn 1.5s;
     }
-
-    /* THIS IS WHERE I LEFT OFF */
 
     .about-us-description {
         font-size: 2.2vh;
@@ -1332,10 +1327,10 @@ header {
 
     .image-button-grid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr); /* 4 columns */
+        grid-template-columns: repeat(1, 1fr);
         padding-top: 15px;
         padding-bottom: 30px;
-        gap: 30px; /* Space between buttons */
+        gap: 30px;
         row-gap: 50px;
     }
 
@@ -1351,7 +1346,7 @@ header {
     }
 
     .mobile-message a {
-        color: #de2b7e; /* Change this to your desired link color */
+        color: #de2b7e;
         text-decoration: underline;
         cursor: pointer;
     }
@@ -1390,14 +1385,14 @@ header {
         border-radius: 1vh;
         border: 0.25vh solid #a61b5c;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        z-index: 1001; /* Ensure it appears above the backdrop */
-        width: 80vw; /* Set a fixed width */
+        z-index: 1001;
+        width: 80vw;
         height: 70vh;
-        overflow: auto; /* Allow scrolling if content overflows */
+        overflow: auto;
         display: flex;
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
-        justify-content: center; /* Center items vertically */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .about-card-picture {
@@ -1422,18 +1417,18 @@ header {
 
     .close-icon {
         position: absolute;
-        top: 0vh; /* Adjust as needed */
-        right: 3vw; /* Adjust as needed */
-        font-size: 4vh; /* Size of the 'X' */
-        cursor: pointer; /* Change cursor to pointer */
-        color: #460130; /* Color of the 'X' */
-        z-index: 1002; /* Ensure it appears above other content */
+        top: 0vh;
+        right: 3vw;
+        font-size: 4vh;
+        cursor: pointer;
+        color: #460130;
+        z-index: 1002;
     }
 
     .our-team-text {
         font-size: 8vh;
-        margin-bottom: 3vh; /* Remove bottom margin */
-        padding-bottom: 0; /* Remove bottom padding */
+        margin-bottom: 3vh;
+        padding-bottom: 0;
     }
 
     .our-team-president {
