@@ -516,8 +516,8 @@ header {
     z-index: 2;
     user-select: none;
     pointer-events: none;
-    position: relative; /* Use relative positioning */
-    top: -1vh; /* Adjust this value to move the flower down */
+    position: relative;
+    top: -1vh;
     height: 21vh;
     width: auto;
 }
@@ -526,8 +526,8 @@ header {
     z-index: 2;
     user-select: none;
     pointer-events: none;
-    position: relative; /* Use relative positioning */
-    top: -1vh; /* Adjust this value to move the flower down */
+    position: relative;
+    top: -1vh;
     height: 21vh;
     width: auto;
 }
