@@ -2,10 +2,8 @@ import React, { useState } from 'react';
 import './styles.css';
 
 const InfographicsMiddle = () => {
-    // State to track the currently selected image
     const [currentImage, setCurrentImage] = useState(null);
 
-    // Images data
     const images = [
         { id: 1, src: '../images/infographics/postpartumdepression.png', alt: 'Postpartum Depression' },
         { id: 2, src: '../images/infographics/premenstrualsyndrome.png', alt: 'Premenstrual Syndrome' },
@@ -22,7 +20,6 @@ const InfographicsMiddle = () => {
         { id: 13, src: '../images/infographics/researchgaps.png', alt: 'Research Gaps' }
     ];
 
-    // Function to close the modal
     const closeModal = () => {
         setCurrentImage(null);
     };
@@ -46,7 +43,7 @@ const InfographicsMiddle = () => {
                 ))}
             </div>
 
-            {/* Conditionally render the modal with the selected image */}
+            {/* Render with image */}
             {currentImage && (
                 <div className="modal-overlay" onClick={closeModal}>
                     <div className="modal-content" onClick={(e) => e.stopPropagation()}>
