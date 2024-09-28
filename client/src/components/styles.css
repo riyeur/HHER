@@ -736,7 +736,7 @@ header {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding-top: 2vh;
-    padding-bottom: 4.1vh;
+    padding-bottom: 4.3vh;
     gap: 3vw;
     row-gap: 6vh;
 }
@@ -770,8 +770,8 @@ header {
 
 .close-button-two {
     position: absolute;
-    top: 2px;
-    right: 2px;
+    top: 0.4vh;
+    right: 0.4vh;
     background-color: #f9f2f5;
     border: 2px solid #7d0055;
     color: #7d0055;
