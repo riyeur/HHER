@@ -686,28 +686,28 @@ header {
 .side-flower-left-bottom {
     bottom: -0.3vh;
     left: 0;
-    height: 30vh;
+    height: 32vh;
     width: auto;
 }
 
 .side-flower-right-bottom {
     bottom: -0.3vh;
     right: 0;
-    height: 30vh;
+    height: 32vh;
     width: auto;
 }
 
 .side-flower-left-top {
     top: 10vh;
     left: 0;
-    height: 30vh;
+    height: 32vh;
     width: auto;
 }
 
 .side-flower-right-top {
     top: 10vh;
     right: 0;
-    height: 30vh;
+    height: 32vh;
     width: auto;
 }
 
