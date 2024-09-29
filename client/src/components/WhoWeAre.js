@@ -4,7 +4,7 @@ import './styles.css';
 const WhoWeAreItem = ({ iconSrc, iconAlt, title, description }) => {
     return (
         <div className="who-we-are-item">
-            <img src={iconSrc} alt={iconAlt} className="icon" height="120" width="auto" />
+            <img src={iconSrc} alt={iconAlt} className="icon" height="120" width="auto" loading="lazy"/>
             <p className="title">{title}</p>
             <p className="description">{description}</p>
         </div>

@@ -12,7 +12,7 @@ const JoinUs = () => {
                         <button className="form-button" type="button"><b>Form</b></button>
                     </a>
                 </div>
-                <img className="potted-flower" src="../images/potted_flower.png" alt="Potted flower" height="350" width="auto" />
+                <img className="potted-flower" src="../images/potted_flower.png" alt="Potted flower" height="350" width="auto" loading="lazy" />
             </div>
         </div>
     );

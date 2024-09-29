@@ -5,7 +5,7 @@ import teamMembers from './TeamMembersData';
 const OurTeamItem = ({ iconSrc, iconAlt, personName, role, onClick }) => {
     return (
         <div className="our-team-item">
-            <img src={iconSrc} alt={iconAlt} className="person-picture" height="180" width="auto" />
+            <img src={iconSrc} alt={iconAlt} className="person-picture" height="180" width="auto" loading="lazy" />
             <p className="person-name"><b>{personName}</b></p>
             <p className="person-role">{role}</p>
             <button onClick={onClick} className="about-button">About</button>

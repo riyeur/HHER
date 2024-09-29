@@ -57,6 +57,7 @@ const InfographicsMiddle = () => {
                             className="infographics-image"
                             height="350px"
                             width="auto"
+                            loading="lazy"
                         />
                     </div>
                 </div>

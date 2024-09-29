@@ -678,7 +678,6 @@ header {
     color: #de2b7e;
 }
 
-
 .side-flower-left-top, .side-flower-right-top, .side-flower-left-bottom, .side-flower-right-bottom {
     position: absolute;
 }
@@ -836,7 +835,7 @@ header {
     text-align: center;
     align-items: center;
     margin-top: 7.5vh;
-    gap: 17.5vw;
+    gap: 18.5vw;
 }
 
 .our-team-fourth-row {
