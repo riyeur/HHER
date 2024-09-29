@@ -678,6 +678,39 @@ header {
     color: #de2b7e;
 }
 
+
+.side-flower-left-top, .side-flower-right-top, .side-flower-left-bottom, .side-flower-right-bottom {
+    position: absolute;
+}
+
+.side-flower-left-bottom {
+    bottom: -0.3vh;
+    left: 0;
+    height: 30vh;
+    width: auto;
+}
+
+.side-flower-right-bottom {
+    bottom: -0.3vh;
+    right: 0;
+    height: 30vh;
+    width: auto;
+}
+
+.side-flower-left-top {
+    top: 10vh;
+    left: 0;
+    height: 30vh;
+    width: auto;
+}
+
+.side-flower-right-top {
+    top: 10vh;
+    right: 0;
+    height: 30vh;
+    width: auto;
+}
+
 .infographics-tagline {
     font-size: 2.5vh;
     margin-top: -11.6vh;
@@ -1335,6 +1368,10 @@ header {
     }
 
     .image-button-grid {
+        display: none;
+    }
+
+    .side-flower-left-top, .side-flower-right-top, .side-flower-left-bottom, .side-flower-right-bottom {
         display: none;
     }
 
