@@ -1656,11 +1656,11 @@ header {
     .coming-soon {
         padding-top: 4.5vh;
         font-size: 5vh;
-        padding-left: 4vw;
+        padding-left: 1.5vh;
     }
 
     .journal-book {
-        height: 39vh;
+        height: 39.5vh;
         width: auto;
         margin-top: 25vh;
     }
@@ -1720,8 +1720,8 @@ header {
     }
 
     .mobile-button-wrapper {
-        padding-top: 3vh;
-        padding-bottom: 3vh;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
     }
 
     .mobile-close {
