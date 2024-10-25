@@ -517,7 +517,7 @@ header {
     user-select: none;
     pointer-events: none;
     position: relative;
-    top: -1vh;
+    top: -2vh;
     height: 21vh;
     width: auto;
 }
@@ -527,7 +527,7 @@ header {
     user-select: none;
     pointer-events: none;
     position: relative;
-    top: -1vh;
+    top: -2vh;
     height: 21vh;
     width: auto;
 }
@@ -558,14 +558,56 @@ header {
     justify-content: center;
     align-items: center;
     background: radial-gradient(circle, #feeaf1 30%, #fff1f6 55%);
+    border-bottom: 0.15vw solid #cb2772;
     min-height: 83vh;
     padding-bottom: 6vh;
+    z-index: 100;
+}
+
+.journal-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.journal-component {
+    height: 30vh;
+    background-color: #fffbfd;
 }
 
 .coming-soon {
+    position: absolute;
     font-size: 8.8vh;
-    color: #de2b7e;
+    margin-bottom: 11.5vh;
+    color: #feeaf1;
     animation: fadeIn 1.5s;
+    z-index: 2;
+}
+
+.book-wrap {
+    position: relative;
+}
+
+.book-wrap img {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.journal-book {
+    position: absolute;
+    padding: none;
+    top: -41.6vh;
+    margin-bottom: -35vh;
+    margin: none;
+    height: 90vh;
+    width: auto;
+    z-index: 1;
+    animation: fadeIn 1.5s;
+    user-select: none;
+    pointer-events: none;
 }
 
 .about-us-picture-description {
@@ -975,6 +1017,112 @@ header {
     display: none;
 }
 
+.journal-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.october-journal-button {
+    outline: none;
+    border: 0.15vw solid #de2b7e;
+    font-size: 3vh;
+    font-weight: 600;
+    padding: 2vh 2.1vw;
+    border-radius: 1vh;
+    color: #de2b7e;
+    background-color: #fef4f7;
+    cursor: pointer;
+    margin-top: 11vh;
+}
+
+.journal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.journal-pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.journal-wrap {
+    position: relative;
+}
+
+.journal-close {
+    position: absolute;
+    display: block;
+    bottom: 45.5vh;
+    left: 76vh;
+    font-size: 6vh;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fef4f7;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.close-journal {
+    padding: 5px;
+}
+
+.journal-page {
+    user-select: none;
+    pointer-events: none;
+    max-width: 70.2vh;
+    height: auto;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.journal-pages {
+    padding-right: 5vh;
+    padding-left: 5vh;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #feeff5 !important;
+    fill: #feeff5 !important;
+    stroke: #feeff5 !important;
+}
+
+.swiper-button-next {
+    margin-right: 45vh !important;
+}
+    
+.swiper-button-prev {
+    margin-left: 45vh !important;
+}
+
+.swiper-button-next::after{
+    font-size: 7vh !important;
+}
+
+.swiper-button-prev::after{
+    font-size: 7vh !important;
+}
+
+.mobile-journal-overlay {
+    display: none;
+}
+
 .hamburger {
     display: none;
     flex-direction: column;
@@ -989,6 +1137,20 @@ header {
     margin-right: 5px;
     border-radius: 2px;
 }
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(6vh);
+    visibility: hidden;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    will-change: opacity, visibility;
+  }
+  
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
 
 @media only screen and (max-width: 1024px) {
     
@@ -1482,6 +1644,93 @@ header {
         font-weight: 600;
         padding: 1.35vh 3.5vw;
         border-radius: 3vh;
+        color: #de2b7e;
+        background-color: #fef4f7;
+        cursor: pointer;
+    }
+
+    .journal-entries {
+        min-height: 33vh;
+    }
+
+    .coming-soon {
+        padding-top: 4.5vh;
+        font-size: 5vh;
+        padding-left: 4vw;
+    }
+
+    .journal-book {
+        height: 39vh;
+        width: auto;
+        margin-top: 25vh;
+    }
+
+    .october-journal-button {
+        outline: none;
+        border: 0.175vh solid #de2b7e;
+        font-size: 3vh;
+        font-weight: 600;
+        padding: 1.8vh 2.5vw;
+        border-radius: 1vh;
+        color: #de2b7e;
+        background-color: #fef4f7;
+        cursor: pointer;
+        margin-top: 11vh;
+    }
+
+    .journal-component {
+        height: 29.5vh;
+        background-color: #fffbfd;
+    }
+
+    .journal-overlay {
+        display: none;
+    }
+
+    .mobile-journal-overlay {
+        display: grid;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        z-index: 2500;
+    }
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.85);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        overflow-y: auto;
+        z-index: 2500;
+    }
+
+    .journal-pages-mobile {
+        z-index: 3000;
+    }
+
+    .journal-page-mobile {
+        width: 100vw;
+        height: auto;
+    }
+
+    .mobile-button-wrapper {
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+
+    .mobile-close {
+        outline: none;
+        border: 0.2vh solid #de2b7e;
+        padding: 1vh 5vw;
+        font-size: 2.3vh;
+        font-weight: 600;
+        border-radius: 10vh;
         color: #de2b7e;
         background-color: #fef4f7;
         cursor: pointer;
