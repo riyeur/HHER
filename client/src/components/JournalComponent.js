@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import OctoberJournal from '../data/OctoberJournal.js';
-/* import NovemberJournal from '../data/NovemberJournal.js'; */
 import './styles.css';
 
 const JournalPage = ({ url, alt, onClose }) => {
@@ -30,9 +29,19 @@ const JournalPageMobile = ({ url, alt, onClose }) => {
 
 
 const JournalComponent = () => {
-    
     const [selectedJournal, setSelectedJournal] = useState(null);
     const [currentJournal, setCurrentJournal] = useState(OctoberJournal);
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
+
+    // Conditional rendering: Ensures that only one component is rendered at a time, depending on whether it is mobile or desktop
+    useEffect (() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 1024);
+        };
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, [])
 
     const handleViewJournal = (journal) => {
         setCurrentJournal(journal);
@@ -50,41 +59,41 @@ const JournalComponent = () => {
             </div>
 
             {selectedJournal && (
-                <div className="journal-overlay">
-                    <Swiper spaceBetween={50} slidesPerView={1} navigation modules={[Navigation]}>
-                        {currentJournal.map((journal, index) => (
-                            <SwiperSlide key={index}>
-                                <JournalPage
+                isMobile ? (
+                    <div className="mobile-journal-overlay">
+                        <div className="overlay">
+                            {currentJournal.map((journal, index) => (
+                                <JournalPageMobile
+                                    key={index}
                                     url={journal.url}
                                     alt={journal.alt}
                                     onClose={handleClose}
                                 />
-                            </SwiperSlide>
-                        ))}
-                    </Swiper>
-                </div>
-            )}
-
-            {selectedJournal && (
-                <div className="mobile-journal-overlay">
-                    <div className="overlay">
-                        {currentJournal.map((journal, index) => (
-                            <JournalPageMobile
-                                url={journal.url}
-                                alt={journal.alt}
-                                onClose={handleClose}
-                            />
-                        ))}
-                        <div className="mobile-button-wrapper">
-                            <button onClick={handleClose} className="mobile-close">
-                                Close
-                            </button>
+                            ))}
+                            <div className="mobile-button-wrapper">
+                                <button onClick={handleClose} className="mobile-close">
+                                    Close
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
+                ) : (
+                    <div className="journal-overlay">
+                        <Swiper spaceBetween={50} slidesPerView={1} navigation modules={[Navigation]}>
+                            {currentJournal.map((journal, index) => (
+                                <SwiperSlide key={index}>
+                                    <JournalPage
+                                        url={journal.url}
+                                        alt={journal.alt}
+                                        onClose={handleClose}
+                                    />
+                                </SwiperSlide>
+                            ))}
+                        </Swiper>
+                    </div>
+                )
             )}
         </div>
-
     );
 };
 
