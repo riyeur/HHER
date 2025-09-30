@@ -870,6 +870,15 @@ header {
     margin-bottom: -1.1vh;
 }
 
+.our-team-president {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 18.5vw;
+}
+
 .our-team-second-row, .our-team-third-row, .our-team-fourth-row {
     display: flex;
     flex-direction: row;
@@ -878,6 +887,14 @@ header {
     align-items: center;
     margin-top: 7.5vh;
     gap: 18.5vw;
+}
+
+.our-team-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 19rem;
 }
 
 .our-team-fourth-row {
@@ -902,6 +919,7 @@ header {
 .person-role {
     font-size: 2.05vh;
     color: #7d0055;
+    max-width: 11rem;
 }
 
 .about-button {
@@ -1571,7 +1589,7 @@ header {
         height: 50vh;
     }
 
-    .our-team-second-row, .our-team-third-row, .our-team-fourth-row {
+    .our-team-president, .our-team-second-row, .our-team-third-row, .our-team-fourth-row {
         display: flex;
         flex-direction: column;
         gap: 7.5vh;
@@ -1637,6 +1655,14 @@ header {
         padding-bottom: 7.7vh;
     }
 
+    .our-team-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 29vh;
+    }
+
     .about-button {
         outline: none;
         border: 0.2vh solid #de2b7e;
@@ -1657,6 +1683,12 @@ header {
         padding-top: 4.5vh;
         font-size: 5vh;
         padding-left: 1.5vh;
+    }
+
+    .person-role {
+        font-size: 2.05vh;
+        color: #7d0055;
+        max-width: 20rem;
     }
 
     .journal-book {

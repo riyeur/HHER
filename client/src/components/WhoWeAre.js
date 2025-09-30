@@ -23,8 +23,8 @@ const WhoWeAre = () => {
                 <WhoWeAreItem
                     iconSrc="../images/icon_three.png"
                     iconAlt="icon-three"
-                    title="Student-led organization"
-                    description="We are an organization based in Calgary that raises money for women's shelters."
+                    title="Student-led club"
+                    description="We are a Students’ Union club at the University of Calgary."
                 />
                 <WhoWeAreItem
                     iconSrc="../images/icon_four.png"
@@ -35,8 +35,8 @@ const WhoWeAre = () => {
                 <WhoWeAreItem
                     iconSrc="../images/icon_two.png"
                     iconAlt="icon-two"
-                    title="Infographics and journal"
-                    description="We make infographics and publish artwork in our monthly journal."
+                    title="Infographics and events"
+                    description="We make infographics and organize volunteer and self-care student events."
                 />
             </div>
             <div className="sparkles-container">
