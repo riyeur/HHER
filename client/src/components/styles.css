@@ -870,6 +870,13 @@ header {
     margin-bottom: -1.1vh;
 }
 
+.person-position {
+    font-size: 2.1vh;
+    font-weight: 500;
+    margin-bottom: -1.1vh;
+    color: #961e56;
+}
+
 .our-team-president {
     display: flex;
     flex-direction: row;

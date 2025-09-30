@@ -1,16 +1,16 @@
 import './styles.css';
 import teamMembers from './TeamMembersData';
 
-const OurTeamItem = ({ iconSrc, iconAlt, personName, role }) => {
+const OurTeamItem = ({ iconSrc, iconAlt, personName, position, role }) => {
     return (
         <div className="our-team-item">
             <img src={iconSrc} alt={iconAlt} className="person-picture" height="180" width="auto" loading="lazy" />
             <p className="person-name"><b>{personName}</b></p>
+            <p className="person-position">{position}</p>
             <p className="person-role">{role}</p>
         </div>
     );
 };
-
 
 const OurTeamMiddle = () => {
     return (
@@ -23,6 +23,7 @@ const OurTeamMiddle = () => {
                             iconSrc={member.iconSrc}
                             iconAlt={member.iconAlt}
                             personName={member.personName}
+                            position={member.position}
                             role={member.role}
                         />
                     ))}
@@ -34,6 +35,7 @@ const OurTeamMiddle = () => {
                             iconSrc={member.iconSrc}
                             iconAlt={member.iconAlt}
                             personName={member.personName}
+                            position={member.position}
                             role={member.role}
                         />
                     ))}
@@ -45,6 +47,7 @@ const OurTeamMiddle = () => {
                             iconSrc={member.iconSrc}
                             iconAlt={member.iconAlt}
                             personName={member.personName}
+                            position={member.position}
                             role={member.role}
                         />
                     ))}
@@ -56,6 +59,7 @@ const OurTeamMiddle = () => {
                             iconSrc={member.iconSrc}
                             iconAlt={member.iconAlt}
                             personName={member.personName}
+                            position={member.position}
                             role={member.role}
                         />
                     ))}
