@@ -120,7 +120,7 @@
 
 @media only screen and (max-width: 1024px) {
     .past-events-container {
-    width: 100%;          /* fill parent instead of 90vw */
+    width: 100%;          
     max-width: 100%;
     box-sizing: border-box;
   }
@@ -128,11 +128,11 @@
   .past-events-box {
     width: 100%;
     max-width: 100%;
-    padding: 0rem 0rem; /* reduce padding so it doesn’t push out */
+    padding: 0rem 0rem; 
     margin: 0 auto;
   }
 
   .event-card {
-    padding: 1.5rem;      /* a bit less padding on very small screens */
+    padding: 1.5rem;      
   }
 }
