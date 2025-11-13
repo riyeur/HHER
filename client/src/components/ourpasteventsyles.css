@@ -1,0 +1,138 @@
+.slick-slider {
+  position: relative;
+}
+
+.past-events-container {
+  width: 90vw;
+  max-width: 50rem;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.past-events-container .slick-list {
+  overflow: hidden !important;
+}
+
+.past-events-container .slick-slide {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.event-card {
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.event-image {
+  width: 100%;
+  height: auto;
+  max-height: 50vh;
+  object-fit: cover;
+  border-radius: 1rem;
+  border: 0.15vw solid #cb2772;
+}
+
+.slick-prev,
+.slick-next {
+  top: 17.7rem;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 10;
+}
+
+.past-events-container .slick-prev:before,
+.past-events-container .slick-next:before {
+  color: #de2b7e !important; 
+}
+
+.slick-prev {
+  left: -1.5rem !important;
+}
+
+.slick-next {
+  right: -1rem !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 4vh;
+}
+
+.past-events-title {
+  font-size: 10.5vh;
+  color: #de2b7e;
+  margin-top: -4.5vh;
+  margin-bottom: -5vh;
+}
+
+.past-events {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-top: 0.15vw solid #cb2772;
+  background: radial-gradient(circle, 
+            #ffaac9 0%,
+            #fde9f0 60%,
+            #fde9f0 100%);
+  padding-bottom: 7rem;
+}
+
+.event-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #de2b7e;
+    font-size: 2.7vh;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.event-description {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #7d0055;
+    font-size: 2.3vh;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+.past-events-box {
+  background-color: #fef6f9;
+  border-radius: 1.5rem;
+  border: 0.15vw solid #cb2772;
+  padding: 3rem;
+  margin-right: 0.7rem;
+  width: 90%;
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .past-events-title {
+    font-size: 7vh;
+    color: #de2b7e;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+    .past-events-container {
+    width: 100%;          /* fill parent instead of 90vw */
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .past-events-box {
+    width: 100%;
+    max-width: 100%;
+    padding: 0rem 0rem; /* reduce padding so it doesn’t push out */
+    margin: 0 auto;
+  }
+
+  .event-card {
+    padding: 1.5rem;      /* a bit less padding on very small screens */
+  }
+}
